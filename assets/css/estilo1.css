@@ -1,0 +1,61 @@
+body
+{
+	background-color: #f4f4f4;
+	font-family: arial;
+}
+
+nav
+{
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+
+section
+{
+	float: left;
+	width: 80%;
+}
+
+
+#institucion
+{
+	text-align: right;
+}
+nav ul li{
+display: block;
+text-decoration: none;
+color: #fff; /* Color del texto */
+background-color: #045FB4; /* Color de fondo */
+border: solid 1px #fff; /* Borde de las pestañas */
+border-top: none;
+padding: 8px;
+position: relative;
+cursor: pointer;
+}
+nav ul li:hover {
+position: relative;
+color: #ffaa00; /* Color del texto al pasar el mouse */
+}
+nav ul li:hover, nav ul li:hover{
+background-color: #1e90ff; /* Color de fondo al pasar el mouse */
+color: #000;
+position: relative;
+}
+
+nav ul li{
+display: block !important;
+display: none;
+position: relative;
+}
+
+nav ul li ul {
+display: none;
+width: 100%;
+}
+nav ul li:hover ul, nav ul li:hover ul {
+display: block;
+position: absolute;
+left: 82%;
+top: 0px;
+}
